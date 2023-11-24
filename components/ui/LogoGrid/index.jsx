@@ -1,12 +1,14 @@
 import Image from 'next/image'
-import freshbooks from '../../../public/logos/azure.svg'
+import freshbooks from '../../../public/logos/test.svg'
 import sendgrid from '../../../public/logos/sendgrid.svg'
 import figma from '../../../public/logos/figma.svg'
 import auth0 from '../../../public/logos/auth0.svg'
 import notion from '../../../public/logos/notion.svg'
-import asana from '../../../public/logos/okta.svg'
+import okta from '../../../public/logos/okta.svg'
 import algolia from '../../../public/logos/algolia.svg'
 import clickup from '../../../public/logos/clickup.svg'
+import onelogin from '../../../public/logos/onelogin.svg'
+
 import SectionWrapper from '../../SectionWrapper'
 
 const logos = [
@@ -15,29 +17,33 @@ const logos = [
         alt: "freshbooks"
     },
     {
-        src: sendgrid,
-        alt: "sendgrid"
+        src: onelogin,
+        alt: "One Login"
     },
+    // {
+    //     src: sendgrid,
+    //     alt: "sendgrid"
+    // },
+    // {
+    //     src: figma,
+    //     alt: "figma"
+    // },
+    // {
+    //     src: clickup,
+    //     alt: "clickup"
+    // },
+    // {
+    //     src: algolia,
+    //     alt: "algolia"
+    // },
     {
-        src: figma,
-        alt: "figma"
+        src: okta,
+        alt: "Okta"
     },
-    {
-        src: clickup,
-        alt: "clickup"
-    },
-    {
-        src: algolia,
-        alt: "algolia"
-    },
-    {
-        src: asana,
-        alt: "asana"
-    },
-    {
-        src: notion,
-        alt: "notion"
-    },
+    // {
+    //     src: notion,
+    //     alt: "notion"
+    // },
     {
         src: auth0,
         alt: "auth0"
