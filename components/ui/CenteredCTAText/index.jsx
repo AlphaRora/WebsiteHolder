@@ -6,10 +6,10 @@ const CenteredCTAText = () => {
             <div className="custom-screen text-center">
                 <div className="max-w-xl mx-auto">
                     <h2 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-                        We help you get more website traffic to your site.
+                        We help you secure your most critical workloads
                     </h2>
                     <p className="mt-3 text-gray-600">
-                        Split brings you the freshest, up-to-date website traffic trends. An easy way to find out the most popular and engaging content to help you grow.
+                        Panpatico provides you with complete visibility on access and usage of your cloud applications, workloads and resources, for whoever and whenever
                     </p>
                 </div>
             </div>
