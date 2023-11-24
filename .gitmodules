@@ -1,3 +1,0 @@
-[submodule "path_to_submodule"] 
-  path = /Users/adobayua/Downloads/split/.gitmodules
-  url = git://https://github.com/AlphaRora/WebsiteHolder/
