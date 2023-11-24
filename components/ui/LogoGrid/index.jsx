@@ -6,7 +6,7 @@ import auth0 from '../../../public/logos/auth0.svg'
 import notion from '../../../public/logos/notion.svg'
 import okta from '../../../public/logos/okta.svg'
 import algolia from '../../../public/logos/algolia.svg'
-import clickup from '../../../public/logos/clickup.svg'
+import clickups from '../../../public/logos/clickup.svg'
 import onelogin from '../../../public/logos/onelogin.svg'
 
 import SectionWrapper from '../../SectionWrapper'
