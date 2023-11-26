@@ -7,7 +7,7 @@ const Pricing = () => {
         {
             name: "Basic plan",
             desc: "Basic Access & Usage Control",
-            price: 4,
+            price: 8,
             isMostPop: false,
             features: [
                 "Session Management",
@@ -22,7 +22,7 @@ const Pricing = () => {
         {
             name: "Business plan",
             desc: "All Basic plan features and more",
-            price: 8,
+            price: 15,
             isMostPop: true,
             features: [
                 "Session Management",
@@ -40,7 +40,7 @@ const Pricing = () => {
         {
             name: "Enterprise plan",
             desc: "All Business plan features and more",
-            price: 15,
+            price: 25,
             isMostPop: false,
             features: [
                 "Session Lifetime Management",
