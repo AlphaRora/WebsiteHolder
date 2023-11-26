@@ -2,7 +2,7 @@ import Image from 'next/image'
 import freshbooks from '../../../public/logos/test.svg'
 import sendgrid from '../../../public/logos/sendgrid.svg'
 import figma from '../../../public/logos/figma.svg'
-import auth0 from '../../../public/logos/ping.svg'
+import auth0 from '../../../public/logos/jump.png'
 import notion from '../../../public/logos/notion.svg'
 import okta from '../../../public/logos/okta.svg'
 import algolia from '../../../public/logos/algolia.svg'
@@ -14,7 +14,7 @@ import SectionWrapper from '../../SectionWrapper'
 const logos = [
     {
         src: freshbooks,
-        alt: "freshbooks"
+        alt: "Microsoft"
     },
     {
         src: onelogin,
@@ -46,7 +46,7 @@ const logos = [
     // },
     {
         src: auth0,
-        alt: "auth0"
+        alt: "Jump Cloud"
     },
 ]
 
