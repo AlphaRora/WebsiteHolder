@@ -10,9 +10,13 @@ const Pricing = () => {
             price: 4,
             isMostPop: false,
             features: [
+                "Session Management",
+                "Authentication Workflow",
                 "Conditional Access",
+                "Standard IdP & SSO",
                 "25 Network Policies",
                 "35 Resource Policies",
+                "50 Resources",
             ],
         },
         {
@@ -21,9 +25,13 @@ const Pricing = () => {
             price: 8,
             isMostPop: true,
             features: [
+                "Session Management",
+                "Authentication Workflow",
+                "Device & Location Filter",
                 "Conditional Access",
                 "55 Network Policies",
                 "75 Resource Policies",
+                "150 Resources",
                 "Access To Your Hosted IdP Solution",
                 "Fully Hosted SSO Solution",
                 '30days Plus Logs Retrieval'
@@ -35,11 +43,17 @@ const Pricing = () => {
             price: 15,
             isMostPop: false,
             features: [
+                "Session Lifetime Management",
+                "Customized Security Attributes",
+                "Authentication Workflow",
+                "Device, Location & Logic Filter",
                 "Conditional Access",
                 "Unlimited Network Policies",
                 "Unlimited Resource Policies",
-                "Access To Your Hosted IdP Solution",
+                "Unlimited Resources",
+                "Access To Your Enterprise Grade Hosted IdP Solution",
                 "Fully Hosted SSO Solution",
+                "Panaptico Threat Detection",
                 'Full User Identity & Management Governance',
                 'Unlimited Logs Retrieval'
             ],
