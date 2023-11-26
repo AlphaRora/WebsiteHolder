@@ -5,17 +5,13 @@ const Features = () => {
     const features = [
         {
             icon:
-                <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M19.5 14.25V11.625C19.5 9.76104 17.989 8.25 16.125 8.25H14.625C14.0037 8.25 13.5 7.74632 13.5 7.125V5.625C13.5 3.76104 11.989 2.25 10.125 2.25H8.25M8.25 15H15.75M8.25 18H12M10.5 2.25H5.625C5.00368 2.25 4.5 2.75368 4.5 3.375V20.625C4.5 21.2463 5.00368 21.75 5.625 21.75H18.375C18.9963 21.75 19.5 21.2463 19.5 20.625V11.25C19.5 6.27944 15.4706 2.25 10.5 2.25Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>,
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path fill="currentColor" d="M4 20v2h4.586L2 28.586L3.414 30L10 23.414V28h2v-8H4zm26 10h-8v-8h8zm-6-2h4v-4h-4zm-4-8h-8v-8h8zm-6-2h4v-4h-4z"/><path fill="currentColor" d="M24 17h-2v-2h2a4 4 0 0 0 0-8H12V5h12a6 6 0 0 1 0 12zm-14-7H2V2h8zM4 8h4V4H4z"/></svg>,
             title: "Adaptive Policies",
-            desc: "Enforce granular policies on your workloads, who can access, when, how, where and much more"
+            desc: "Build, enforce and deploy granular policies on your workloads, resources and applications with who can access, when, how, where and permitted usage and actions"
         },
         {
             icon:
-                <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M3.171 12.0945V11.85C4.6785 11.697 5.4165 10.9275 5.4165 9.45V6.7545C5.4165 5.1135 6.0015 4.4475 7.4475 4.4475H7.857V3H7.293C4.875 3 3.735 4.1385 3.735 6.528V8.814C3.735 10.455 3.171 10.998 1.5 10.998V12.9465C3.171 12.9465 3.735 13.4895 3.735 15.1305V17.4165C3.735 19.806 4.8735 20.9445 7.293 20.9445H7.857V19.4985H7.4475C6.0015 19.4985 5.4165 18.8325 5.4165 17.1915V14.4945C5.4165 13.0185 4.6785 12.249 3.171 12.0945ZM20.829 11.85V12.0945C19.3215 12.249 18.5835 13.0185 18.5835 14.4945V17.1915C18.5835 18.8325 17.9985 19.4985 16.5525 19.4985H16.143V20.9445H16.707C19.1265 20.9445 20.265 19.806 20.265 17.4165V15.1305C20.265 13.4895 20.829 12.9465 22.5 12.9465V10.998C20.829 10.998 20.265 10.455 20.265 8.814V6.528C20.265 4.1385 19.125 3 16.707 3H16.143V4.446H16.5525C17.9985 4.446 18.5835 5.112 18.5835 6.753V9.45C18.5835 10.926 19.3215 11.6955 20.829 11.85Z" fill="currentColor" />
-                </svg>,
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path fill="currentColor" d="M9 21H3c-1.103 0-2-.897-2-2v-6c0-1.103.897-2 2-2h6c1.103 0 2 .897 2 2v6c0 1.103-.897 2-2 2zm-6-8v6h6v-6H3zm13 17c-.362 0-.72-.014-1.076-.04c-4.352-.332-8.36-2.732-10.723-6.42l1.685-1.08a12.057 12.057 0 0 0 9.19 5.505c.305.023.613.035.924.035v2zm7 0l-2.1-1c-1.7-.8-2.9-2.6-2.9-4.5V18h10v6.5c0 1.9-1.1 3.7-2.9 4.5L23 30zm-3-10v4.5c0 1.2.7 2.2 1.7 2.7l1.3.6l1.3-.6c1-.5 1.7-1.6 1.7-2.7V20h-6zm7.302-8c.454 1.282.698 2.621.698 4h2c0-1.37-.199-2.708-.584-4h-2.114zM27 10h-3c-1.103 0-2-.897-2-2V5c0-1.103.897-2 2-2h3c1.103 0 2 .897 2 2v3c0 1.103-.897 2-2 2zm-3-5v3h3V5h-3zm-4-2.417A13.952 13.952 0 0 0 16 2A13.951 13.951 0 0 0 4.202 8.46l1.684 1.08A11.961 11.961 0 0 1 20 4.698V2.583z"/></svg>,
             title: "Zero Trust Protection",
             desc: "Enable third-party access, office users, roaming users, partners, contractors and more to access your systems and resources securely. Monitor devices, locations, users, actions accessing your resources and workloads for continuous security at all times."
         },
@@ -29,11 +25,9 @@ const Features = () => {
         },
         {
             icon:
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-                </svg>,
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><circle cx="21" cy="21" r="2" fill="currentColor"/><circle cx="7" cy="7" r="2" fill="currentColor"/><path fill="currentColor" d="M27 31a4 4 0 1 1 4-4a4.012 4.012 0 0 1-4 4Zm0-6a2 2 0 1 0 2 2a2.006 2.006 0 0 0-2-2Z"/><path fill="currentColor" d="M30 16A14.041 14.041 0 0 0 16 2a13.043 13.043 0 0 0-6.8 1.8l1.1 1.7a24.425 24.425 0 0 1 2.4-1A25.135 25.135 0 0 0 10 15H4a11.149 11.149 0 0 1 1.4-4.7L3.9 9A13.842 13.842 0 0 0 2 16a13.998 13.998 0 0 0 14 14a13.366 13.366 0 0 0 5.2-1l-.6-1.9a11.442 11.442 0 0 1-5.2.9A21.071 21.071 0 0 1 12 17h17.9a3.402 3.402 0 0 0 .1-1ZM12.8 27.6a13.02 13.02 0 0 1-5.3-3.1A12.505 12.505 0 0 1 4 17h6a25.002 25.002 0 0 0 2.8 10.6ZM12 15a21.446 21.446 0 0 1 3.3-11h1.4A21.446 21.446 0 0 1 20 15Zm10 0a23.278 23.278 0 0 0-2.8-10.6A12.092 12.092 0 0 1 27.9 15Z"/></svg>,
             title: "Modern Workspace For Hybrid Work",
-            desc: "we help you understand how well your marketing campaigns are performing."
+            desc: "Enable working from anywhere, whenever a secure and smooth experience for your workforce, while maintinaing best security standards for access and usage of your resources"
         },
     ]
 

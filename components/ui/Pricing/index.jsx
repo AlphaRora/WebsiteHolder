@@ -6,45 +6,42 @@ const Pricing = () => {
     const plans = [
         {
             name: "Basic plan",
-            desc: "SEO, social, and PPC tools",
-            price: 12,
+            desc: "Basic Access & Usage Control",
+            price: 4,
             isMostPop: false,
             features: [
-                "3 projects",
-                "200 keywords to track",
-                "5,000 results per report",
-                "Keyword, domain and backlink ",
-                "Google Data Studio Integration",
-                "Content Marketing Platform",
-
+                "Conditional Access",
+                "25 Network Policies",
+                "35 Resource Policies",
             ],
         },
         {
             name: "Business plan",
             desc: "All Basic plan features and more",
-            price: 39,
+            price: 8,
             isMostPop: true,
             features: [
-                "5 projects",
-                "400 keywords to track",
-                "12,000 results per report",
-                "Keyword, domain and backlink ",
-                "Google Data Studio Integration",
-                "Content Marketing Platform",
+                "Conditional Access",
+                "55 Network Policies",
+                "75 Resource Policies",
+                "Access To Your Hosted IdP Solution",
+                "Fully Hosted SSO Solution",
+                '30days Plus Logs Retrieval'
             ],
         },
         {
             name: "Enterprise plan",
             desc: "All Business plan features and more",
-            price: 92,
+            price: 15,
             isMostPop: false,
             features: [
-                "10 projects",
-                "1000 keywords to track",
-                "35,000 results per report",
-                "Keyword, domain and backlink ",
-                "Google Data Studio Integration",
-                "Content Marketing Platform",
+                "Conditional Access",
+                "Unlimited Network Policies",
+                "Unlimited Resource Policies",
+                "Access To Your Hosted IdP Solution",
+                "Fully Hosted SSO Solution",
+                'Full User Identity & Management Governance',
+                'Unlimited Logs Retrieval'
             ],
         },
     ];
@@ -71,7 +68,7 @@ const Pricing = () => {
                                         {item.name}
                                     </span>
                                     <div className='text-gray-800 text-3xl font-semibold'>
-                                        ${item.price} <span className="text-xl text-gray-600 font-normal">/mo</span>
+                                        ${item.price} <span className="text-xl text-gray-600 font-normal">/user</span>
                                     </div>
                                     <p>
                                         {item.desc}
@@ -99,7 +96,7 @@ const Pricing = () => {
                                     </ul>
                                     <div className="pt-8">
                                         <Button className={`w-full rounded-full text-white ring-offset-2 focus:ring ${item.isMostPop ? "bg-blue-600 hover:bg-blue-500 focus:bg-blue-700 ring-blue-600" : "bg-gray-800 hover:bg-gray-700 ring-gray-800"}`}>
-                                            Get Started
+                                           Request Access
                                         </Button>
                                     </div>
                                 </div>
