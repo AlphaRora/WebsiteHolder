@@ -16,9 +16,9 @@ const Footer = () => (
                     <Link href="/" className="inline-block">
                         <Brand />
                     </Link>
-                    <h2 className="text-gray-800 text-lg font-semibold sm:text-2xl">Websites optimization tool</h2>
+                    <h2 className="text-gray-800 text-lg font-semibold sm:text-2xl">Cloud Native Resource & Application Security Tool</h2>
                     <p className="max-w-md">
-                        We help companies around the world to get the best strategies to improve their marketing.
+                        We help companies secure access and usage of their most critical resources and workloads.
                     </p>
                     <div className="pt-2 flex items-center gap-x-6 text-gray-400">
                         <a href="/" target="_blank" aria-label="Social media">
@@ -46,7 +46,7 @@ const Footer = () => (
                         ))
                     }
                 </ul>
-                <p className="mt-6 sm:mt-0">© 2023 Split Inc. All rights reserved.</p>
+                <p className="mt-6 sm:mt-0">© 2023 Panaptico Inc. All rights reserved.</p>
             </div>
         </div>
     </footer>

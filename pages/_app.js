@@ -5,13 +5,13 @@ export default function App({ Component, pageProps }) {
   return (
     <main>
       <Head>
-        <title>Split</title>
+        <title>Panaptico</title>
         <meta
           name='description'
-          content='The ultimate way to get more website traffic and grow your online business.'
+          content='Secure Access & Usage Of Your Cloud Workloads & Applications'
         />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='/panaptico.png' />
       </Head>
       <Component {...pageProps} />
     </main>
