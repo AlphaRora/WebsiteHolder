@@ -3,19 +3,19 @@ import SectionWrapper from "../../SectionWrapper"
 const stats = [
     {
         data: "95K+",
-        desc: "Active websites around the world."
+        desc: "Organizations On Panaptico"
     },
     {
-        data: "120M+",
-        desc: "API requests per day, and 6,000 requests a second."
+        data: "120m+",
+        desc: "Protected requests per day, and 60k requests a second."
     },
     {
         data: "25B+",
-        desc: "Tracked pageviews per month."
+        desc: "Tracked proccesses per month."
     },
     {
         data: "70%",
-        desc: "most people are using split in their website."
+        desc: "of Fortune 100 Organizations Rely On Panaptico"
     },
 ]
 
@@ -24,10 +24,10 @@ const Stats = () => (
         <div className="custom-screen text-gray-600">
             <div className="max-w-xl xl:mx-auto xl:text-center">
                 <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-                    Get your site to the top of Google
+                    Trusted By The Best
                 </h3>
                 <p className="mt-3">
-                    We distribute your visitors to your site across different geographical locations.
+                    Businesses, Governments & Institutions Rely On Panaptico For Protection
                 </p>
             </div>
             <div className="mt-12">

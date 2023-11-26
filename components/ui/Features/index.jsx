@@ -17,7 +17,7 @@ const Features = () => {
                     <path d="M3.171 12.0945V11.85C4.6785 11.697 5.4165 10.9275 5.4165 9.45V6.7545C5.4165 5.1135 6.0015 4.4475 7.4475 4.4475H7.857V3H7.293C4.875 3 3.735 4.1385 3.735 6.528V8.814C3.735 10.455 3.171 10.998 1.5 10.998V12.9465C3.171 12.9465 3.735 13.4895 3.735 15.1305V17.4165C3.735 19.806 4.8735 20.9445 7.293 20.9445H7.857V19.4985H7.4475C6.0015 19.4985 5.4165 18.8325 5.4165 17.1915V14.4945C5.4165 13.0185 4.6785 12.249 3.171 12.0945ZM20.829 11.85V12.0945C19.3215 12.249 18.5835 13.0185 18.5835 14.4945V17.1915C18.5835 18.8325 17.9985 19.4985 16.5525 19.4985H16.143V20.9445H16.707C19.1265 20.9445 20.265 19.806 20.265 17.4165V15.1305C20.265 13.4895 20.829 12.9465 22.5 12.9465V10.998C20.829 10.998 20.265 10.455 20.265 8.814V6.528C20.265 4.1385 19.125 3 16.707 3H16.143V4.446H16.5525C17.9985 4.446 18.5835 5.112 18.5835 6.753V9.45C18.5835 10.926 19.3215 11.6955 20.829 11.85Z" fill="currentColor" />
                 </svg>,
             title: "Zero Trust Protection",
-            desc: "Our API allows you to obtain your statistics programmatically, send them wherever you want."
+            desc: "Enable third-party access, office users, roaming users, partners, contractors and more to access your systems and resources securely. Monitor devices, locations, users, actions accessing your resources and workloads for continuous security at all times."
         },
         {
             icon:
@@ -32,7 +32,7 @@ const Features = () => {
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                 </svg>,
-            title: "Analyze marketing campaigns",
+            title: "Modern Workspace For Hybrid Work",
             desc: "we help you understand how well your marketing campaigns are performing."
         },
     ]

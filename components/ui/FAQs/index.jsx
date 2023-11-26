@@ -37,7 +37,7 @@ const faqsList = [
 
 const FAQs = () => (
     <SectionWrapper id="faqs">
-        <div className="custom-screen text-gray-600">
+        {/* <div className="custom-screen text-gray-600">
             <div className="max-w-xl xl:mx-auto xl:text-center">
                 <h2 className="text-gray-800 text-3xl font-extrabold sm:text-4xl">
                     Frequently asked questions
@@ -70,7 +70,7 @@ const FAQs = () => (
                     ))}
                 </ul>
             </div>
-        </div>
+        </div> */}
     </SectionWrapper>
 )
 
