@@ -1,6 +1,6 @@
 import GradientWrapper from "../../GradientWrapper"
 import NavLink from "../NavLink"
-
+//
 const Hero = () => (
     <section>
         <GradientWrapper wrapperClassName="inset-0" className="custom-screen text-gray-600">
