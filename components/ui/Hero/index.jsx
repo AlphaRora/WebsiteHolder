@@ -6,10 +6,10 @@ const Hero = () => (
         <GradientWrapper wrapperClassName="inset-0" className="custom-screen text-gray-600">
             <div className="space-y-5 max-w-4xl mx-auto text-center">
                 <h1 className="text-4xl text-gray-800 font-extrabold mx-auto sm:text-6xl">
-                    Secure access & usage of your <span className=" bg-clip-text text-transparent bg-gradient-to-r from-[#9867F0] to-[#ED4E50]">Resources, Workloads and Applications</span>
+                    Secure access & usage of your <span className=" bg-clip-text text-transparent bg-gradient-to-r from-[#9867F0] to-[#ED4E50]">Resources, Workloads, Users and Applications</span>
                 </h1>
                 <p className="max-w-xl mx-auto">
-                    Panaptico allows organizations to secure access & usage of applications, resources & workloads across heterogeneous environments
+                    Panaptico helps organizations secure access & usage of applications, resources & workloads across heterogeneous environments
                 </p>
                 <div className="flex items-center justify-center gap-x-3 font-medium text-sm">
                     <NavLink

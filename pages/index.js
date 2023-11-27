@@ -22,8 +22,8 @@ export default function Home() {
       <CenteredCTAText />
       <CTA />
       <Features />
-      <Stats />
-      <FAQs />
+      {/* <Stats />
+      <FAQs /> */}
       <FooterCTA />
       <Footer />
     </>
