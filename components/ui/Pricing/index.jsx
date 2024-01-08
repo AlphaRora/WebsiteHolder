@@ -38,7 +38,7 @@ const Pricing = () => {
             ],
         },
         {
-            name: "Enterprise plan",
+            name: "Enterprise plans",
             desc: "All Business plan features and more",
             price: 25,
             isMostPop: false,
