@@ -16,7 +16,9 @@ import Cisco from '../../../public/logos/Cisco.svg'
 import Tailscale from '../../../public/logos/tailscale.svg'
 import Digital from '../../../public/logos/Digital.svg'
 import PANW from '../../../public/logos/PANW.svg'
-import ATT from '../../../public/logos/ATT.svg'
+import ATT from '../../../public/logos/Att.svg'
+import Cisco from '../../../public/logos/Cisco.svg'
+
 import Juniper from '../../../public/logos/Juniper.svg'
 import Fortinet from '../../../public/logos/Fortinet.svg'
 
@@ -65,6 +67,10 @@ const logos = [
     {
         src: Fortinet,
         alt: "Fortinet"
+    },
+    {
+        src: Cisco,
+        alt: "Cisco"
     },
 ]  
 
