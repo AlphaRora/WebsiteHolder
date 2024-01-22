@@ -55,7 +55,7 @@ const LogoGrid = () => (
     <SectionWrapper>
         <div className="custom-screen">
             <h2 className="font-semibold text-sm text-gray-800 text-center">
-            Effortlessly integrate existing identity providers, apps, infrastructure or build your own customized solution on Panaptico
+            Designed To Work With Your Public, Private Cloud & On-Prem Infrastructure
             </h2>
             <div className="mt-8 flex justify-center">
                 <ul className="inline-grid grid-cols-2 gap-x-10 gap-y-8 md:gap-x-16 md:grid-cols-3 lg:grid-cols-4">
