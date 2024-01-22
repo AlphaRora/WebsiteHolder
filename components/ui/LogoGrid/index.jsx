@@ -8,7 +8,7 @@ import okta from '../../../public/logos/okta.svg'
 import algolia from '../../../public/logos/algolia.svg'
 import clickupst from '../../../public/logos/clickup.svg'
 import onelogin from '../../../public/logos/onelogin.svg'
-
+import Equinix from  '../../../public/logos/equinix.svg'
 import SectionWrapper from '../../SectionWrapper'
 
 const logos = [
@@ -17,33 +17,14 @@ const logos = [
         alt: "Microsoft"
     },
     {
-        src: onelogin,
-        alt: "One Login"
+        src: Equinix,
+        alt: "Equinix"
     },
-    // {
-    //     src: sendgrid,
-    //     alt: "sendgrid"
-    // },
-    // {
-    //     src: figma,
-    //     alt: "figma"
-    // },
-    // {
-    //     src: clickup,
-    //     alt: "clickup"
-    // },
-    // {
-    //     src: algolia,
-    //     alt: "algolia"
-    // },
+
     {
         src: okta,
         alt: "Okta"
     },
-    // {
-    //     src: notion,
-    //     alt: "notion"
-    // },
     {
         src: auth0,
         alt: "Jump Cloud"
@@ -58,16 +39,17 @@ const LogoGrid = () => (
             Designed To Work With Your Public, Private Cloud & On-Prem Infrastructure
             </h2>
             <div className="mt-8 flex justify-center">
-                <ul className="inline-grid grid-cols-2 gap-x-10 gap-y-8 md:gap-x-16 md:grid-cols-3 lg:grid-cols-4">
-                    {
-                        logos.map((item, idx) => (
-                            <li key={idx}>
-                                <Image src={item.src} alt={item.alt} />
-                            </li>
-                        ))
-                    }
-                </ul>
-            </div>
+    <ul className="inline-grid grid-cols-2 gap-x-4 gap-y-4 md:gap-x-8 md:grid-cols-3 lg:grid-cols-4">
+        {
+            logos.map((item, idx) => (
+                <li key={idx}>
+                    <Image src={item.src} alt={item.alt} className="max-w-full h-auto" />
+                </li>
+            ))
+        }
+    </ul>
+</div>
+
         </div>
     </SectionWrapper>
 )
