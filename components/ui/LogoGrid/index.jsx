@@ -18,6 +18,7 @@ import Digital from '../../../public/logos/Digital.svg'
 import PANW from '../../../public/logos/PANW.svg'
 import ATT from '../../../public/logos/Att.svg'
 import Cisco from '../../../public/logos/Cisco.svg'
+import Arista from '../../../public/logos/Arista.svg'
 
 import Juniper from '../../../public/logos/Juniper.svg'
 import Fortinet from '../../../public/logos/Fortinet.svg'
@@ -71,6 +72,10 @@ const logos = [
     {
         src: Cisco,
         alt: "Cisco"
+    },
+    {
+        src: Arista,
+        alt: "Arista"
     },
 ]  
 
