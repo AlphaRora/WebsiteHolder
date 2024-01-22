@@ -10,11 +10,11 @@ import clickupst from '../../../public/logos/clickup.svg'
 import onelogin from '../../../public/logos/onelogin.svg'
 import Equinix from  '../../../public/logos/equinix.svg'
 import SectionWrapper from '../../SectionWrapper'
-
+import AWS from '../../../public/logos/aws.svg'
 const logos = [
     {
-        src: freshbooks,
-        alt: "Microsoft"
+        src: AWS,
+        alt: "AWS"
     },
     {
         src: Equinix,
