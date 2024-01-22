@@ -33,25 +33,20 @@ const logos = [
 
 
 const LogoGrid = () => (
-    <SectionWrapper>
-        <div className="custom-screen">
-            <h2 className="font-semibold text-sm text-gray-800 text-center">
-            Designed To Work With Your Public, Private Cloud & On-Prem Infrastructure
-            </h2>
-            <div className="mt-8 flex justify-center">
-    <ul className="inline-grid grid-cols-2 gap-x-4 gap-y-4 md:gap-x-8 md:grid-cols-3 lg:grid-cols-4">
-        {
-            logos.map((item, idx) => (
-                <li key={idx}>
-                    <Image src={item.src} alt={item.alt} className="max-w-full h-auto" />
-                </li>
-            ))
-        }
-    </ul>
-</div>
-
-        </div>
-    </SectionWrapper>
+  <SectionWrapper>
+    <div className="custom-screen">
+      <h2 className="font-semibold text-sm text-gray-800 text-center">
+        Designed To Work With Your Public, Private Cloud & On-Prem Infrastructure
+      </h2>
+      <div className="mt-8 grid grid-cols-6 gap-4 justify-center">
+        {logos.map((item, idx) => (
+          <div key={idx} className="flex items-center justify-center">
+            <img src={item.src} alt={item.alt} className="max-w-full h-auto" />
+          </div>
+        ))}
+      </div>
+    </div>
+  </SectionWrapper>
 )
 
 export default LogoGrid
