@@ -7,7 +7,7 @@
   <sfw xmlns="ns_sfw;">
    <slices>
    </slices>
-   <sliceSourceBounds bottomLeftOrigin="true" height="72" width="120.4" x="181.9" y="1.1">
+   <sliceSourceBounds bottomLeftOrigin="true" height="72" width="144" x="181.9" y="1.1">
    </sliceSourceBounds>
   </sfw>
  </metadata>
