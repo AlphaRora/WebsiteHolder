@@ -16,15 +16,15 @@ export default function Home() {
       <Head>
         <meta name='robots' content='index' />
       </Head>
-      <Navbar />
+      {/* <Navbar /> */}
       <Hero />
       <LogoGrid />
-      <CenteredCTAText />
-      <CTA />
-      <Features />
+      {/* <CenteredCTAText />
+      <CTA /> */}
+      {/* <Features /> */}
       {/* <Stats />
       <FAQs /> */}
-      <FooterCTA />
+      {/* <FooterCTA /> */}
       <Footer />
     </>
   );

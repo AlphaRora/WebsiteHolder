@@ -2,16 +2,25 @@ import Image from 'next/image'
 import freshbooks from '../../../public/logos/test.svg'
 import sendgrid from '../../../public/logos/sendgrid.svg'
 import figma from '../../../public/logos/figma.svg'
-import auth0 from '../../../public/logos/jump.png'
+import Oracle from '../../../public/logos/oracle.svg'
 import notion from '../../../public/logos/notion.svg'
-import okta from '../../../public/logos/okta.svg'
+import Azure from '../../../public/logos/azure2.svg'
 import algolia from '../../../public/logos/algolia.svg'
 import clickupst from '../../../public/logos/clickup.svg'
 import onelogin from '../../../public/logos/onelogin.svg'
 import Equinix from  '../../../public/logos/equinix.svg'
 import SectionWrapper from '../../SectionWrapper'
 import AWS from '../../../public/logos/aws.svg'
-const logos = [
+import Oxide from '../../../public/logos/Oxide.svg'
+import Cisco from '../../../public/logos/Cisco.svg'
+import Tailscale from '../../../public/logos/tailscale.svg'
+import Digital from '../../../public/logos/Digital.svg'
+import PANW from '../../../public/logos/PANW.svg'
+import ATT from '../../../public/logos/ATT.svg'
+import Juniper from '../../../public/logos/Juniper.svg'
+import Fortinet from '../../../public/logos/Fortinet.svg'
+
+const logos = [ 
     {
         src: AWS,
         alt: "AWS"
@@ -22,31 +31,67 @@ const logos = [
     },
 
     {
-        src: okta,
-        alt: "Okta"
+        src: Azure,
+        alt: "Azure"
     },
     {
-        src: auth0,
-        alt: "Jump Cloud"
+        src: Oracle,
+        alt: "Oracle"
     },
-]
+    {
+        src: Oxide,
+        alt: "Oxide"
+    },
+    {
+        src: PANW,
+        alt: "PANW"
+    },
+    {
+        src: Tailscale,
+        alt: "Tailscale"
+    },
+    {
+        src: Digital,
+        alt: "Digital Realty"
+    },
+    {
+        src: ATT,
+        alt: "ATT"
+    },
+    {
+        src: Juniper,
+        alt: "Juniper"
+    },
+    {
+        src: Fortinet,
+        alt: "Fortinet"
+    },
+]  
 
 
 const LogoGrid = () => (
-  <SectionWrapper>
-    <div className="custom-screen">
-      <h2 className="font-semibold text-sm text-gray-800 text-center">
-        Designed To Work With Your Public, Private Cloud & On-Prem Infrastructure
-      </h2>
-      <div className="mt-8 grid grid-cols-6 gap-4 justify-center">
+<SectionWrapper>
+  <div className="custom-screen">
+    <h2 className="font-semibold text-sm text-gray-800 text-center">
+      Designed To Work With Your Public, Private Cloud & On-Prem Infrastructure  
+    </h2>
+
+    <div className="mt-8 flex justify-center">
+      <ul className="inline-grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-4">
         {logos.map((item, idx) => (
-          <div key={idx} className="flex items-center justify-center">
-            <img src={item.src} alt={item.alt} className="max-w-full h-auto" />
-          </div>
+          <li key={idx} className="h-20 flex items-center justify-center">
+            <Image
+              src={item.src}
+              alt={item.alt} 
+              className="max-h-full max-w-full"
+            />
+          </li>
         ))}
-      </div>
+      </ul>
     </div>
-  </SectionWrapper>
+  
+  </div>
+</SectionWrapper>
 )
 
 export default LogoGrid

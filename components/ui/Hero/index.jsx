@@ -7,7 +7,7 @@ const Hero = () => (
             <div className="space-y-5 max-w-4xl mx-auto text-center">
                 <h1 className="text-3xl text-gray-800 font-extrabold mx-auto sm:text-6xl">
                      <span className=" bg-clip-text text-transparent bg-gradient-to-r from-[#9867F0] to-[#ED4E50]">Simulate, Manage, Design & Secure </span>
-                     networks across public, private cloud & on-prem infrastructure
+                     Networks Across Public, Private Cloud & On-Prem Infrastructure
                 </h1>
                 <p className="max-w-xl mx-auto">
                     Infrastructure For Network Design & Management
